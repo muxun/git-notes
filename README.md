@@ -104,6 +104,17 @@ git в своих коммитах хранит полное состояние 
 
 ![](gitssh-c7cf515e-b2d5-472a-a785-f93c2c6c84b4.png)
 
+проверяем , что получилось
+
+    $ ssh -T git@github.com
+    Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+
+# Работа с удаленным репозиторием
+
+Изначально, клонируем репозиторий с github
+
+    git clone link_to_repo_on_github.git
+
 
 для подтягивания актуальной версии 
 
